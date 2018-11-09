@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configure>
+	<basedir>E:\laiya\test\demo\test001</basedir>
+	<basePackage>com.zx.test</basePackage>
+	<db>
+		<dbName>kaifa</dbName>
+		<user>testqkl</user>
+		<pwd>Ad519164Rb4e!5</pwd>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<url>jdbc:mysql://192.168.18.51:3310/kaifa?useUnicode=true&amp;characterEncoding=utf-8</url>
+	</db>
+	<packageSetting>
+		<actionPackage>controller</actionPackage>
+		<daoPackage>dao</daoPackage>
+		<daoImplPackage>impl</daoImplPackage>
+		<servicePackage>service</servicePackage>
+		<serviceImplPackage>impl</serviceImplPackage>
+		<entityPackage>model</entityPackage>
+		<mapperPackage>mapper</mapperPackage>
+		<viewPackage>view</viewPackage>
+		<isDeleteTablePrefix>true</isDeleteTablePrefix>
+	</packageSetting>
+	<module>
+		<persistance>mybatis</persistance>
+		<name>shangcheng</name>
+		<isDeleteTablePrefix>true</isDeleteTablePrefix>
+		<savePath></savePath>
+		<framework>mvc</framework>
+		<table name="t_user" entityName="TestUser" prefix="t_fcs_">
+		</table>
+	</module>
+</configure>
